@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Producto.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">e2</a> &gt; <a href="index.source.html" class="el_package">com.example</a> &gt; <span class="el_source">Producto.java</span></div><h1>Producto.java</h1><pre class="source lang-java linenums">package com.example;
+
+public class Producto {
+
+    private String nombre;
+    private double precio;
+    private int stock;
+
+<span class="fc" id="L9">    public Producto(String nombre, double precio, int stock) {</span>
+<span class="fc" id="L10">        this.nombre = nombre;</span>
+<span class="fc" id="L11">        this.precio = precio;</span>
+<span class="fc" id="L12">        this.stock = stock;</span>
+<span class="fc" id="L13">    }</span>
+
+    public String getNombre() {
+<span class="fc" id="L16">        return nombre;</span>
+    }
+
+    public double getPrecio() {
+<span class="fc" id="L20">        return precio;</span>
+    }
+
+    public int getStock() {
+<span class="fc" id="L24">        return stock;</span>
+    }
+
+    public void vender(int cantidad) throws Exception {
+
+<span class="fc bfc" id="L29" title="All 2 branches covered.">        if (cantidad &lt;= 0) {</span>
+<span class="fc" id="L30">            throw new Exception(&quot;Cantidad inválida&quot;);</span>
+        }
+
+<span class="fc bfc" id="L33" title="All 2 branches covered.">        if (cantidad &gt; stock) {</span>
+<span class="fc" id="L34">            throw new Exception(&quot;Stock insuficiente&quot;);</span>
+        }
+
+<span class="fc" id="L37">        stock = stock - cantidad;</span>
+<span class="fc" id="L38">    }</span>
+
+    public void reponer(int cantidad) throws Exception {
+
+<span class="fc bfc" id="L42" title="All 2 branches covered.">        if (cantidad &lt;= 0) {</span>
+<span class="fc" id="L43">            throw new Exception(&quot;Cantidad inválida&quot;);</span>
+        }
+
+<span class="fc" id="L46">        stock = stock + cantidad;</span>
+<span class="fc" id="L47">    }</span>
+
+    public double calcularValorStock() {
+<span class="fc" id="L50">        return precio * stock;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span></div></body></html>

@@ -1,0 +1,39 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+--release
+17
+-sourcepath
+'/home/vagrant/Desktop/CD2025Examen3T/e3/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'e3 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'e3 1.0-SNAPSHOT API'
+com.example
+/home/vagrant/Desktop/CD2025Examen3T/e3/src/main/java = 1779780401940
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/allpackages-index.html = 1779782805125
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/tag-search-index.js = 1779782805126
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/index-all.html = 1779782805131
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/allclasses-index.html = 1779782805124
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/type-search-index.js = 1779782805125
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/overview-tree.html = 1779782805116
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/package-search-index.js = 1779782805125
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/search.html = 1779782805136
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/member-search-index.js = 1779782805126
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/element-list = 1779782805088
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/index.html = 1779782805136
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/module-search-index.js = 1779782805125
+/home/vagrant/Desktop/CD2025Examen3T/e3/target/site/apidocs/help-doc.html = 1779782805141
